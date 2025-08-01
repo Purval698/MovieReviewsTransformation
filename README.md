@@ -1,15 +1,1 @@
-Welcome to your new dbt project!
-
-### Using the starter project
-
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+This DBT project transforms movie review data by standardizing text, converting it to lowercase, and utilizing seeds for static data. It employs snapshots to handle Slowly Changing Dimensions Type 2 (SCD2) for historical tracking. The data's integrity is ensured through testing for null and unique values. This process creates a clean, reliable dataset for downstream analysis.
